@@ -1,3 +1,5 @@
+[![Build Status](https://dev.azure.com/wpilib/Documentation/_apis/build/status/wpilibsuite.Control-System-Vectors?branchName=master)](https://dev.azure.com/wpilib/Documentation/_build/latest?definitionId=45&branchName=master)
+
 # Control System Vectors
 
 Welcome to the WPILib collection of vector images for the FIRST Robotics Competition control system!
