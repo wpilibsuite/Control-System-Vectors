@@ -28,5 +28,5 @@ jobs:
     - script: pip install -r requirements.txt
       displayName: 'Install Python Requirements'
 
-    - script: html5validator --skip-non-svg --root ./
+    - script: html5validator --skip-non-svg --ignore 'No documents specified' --root ./
       displayName: 'Validate Vectors'
