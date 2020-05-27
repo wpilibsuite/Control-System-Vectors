@@ -8,23 +8,23 @@ trigger:
       - master
 
 jobs:
-    - task: UsePythonVersion@0
-      displayName: 'Select Python Version 3.6'
-      inputs:
-        versionSpec: '3.6'
-        architecture: 'x64'
+  - task: UsePythonVersion@0
+    displayName: 'Select Python Version 3.6'
+    inputs:
+      versionSpec: '3.6'
+      architecture: 'x64'
 
-    - script: sudo apt-get update
-      displayName: 'Update System Packages'
+  - script: sudo apt-get update
+    displayName: 'Update System Packages'
 
-    - script: sudo apt-get install -y openjdk-8-jdk
-      displayName: 'Install Java 8'
+  - script: sudo apt-get install -y openjdk-8-jdk
+    displayName: 'Install Java 8'
 
-    - script: python -m pip install --upgrade pip setuptools wheel
-      displayName: 'Install and Upgrade Pip'
+  - script: python -m pip install --upgrade pip setuptools wheel
+    displayName: 'Install and Upgrade Pip'
 
-    - script: pip install -r requirements.txt
-      displayName: 'Install Python Requirements'
+  - script: pip install -r requirements.txt
+    displayName: 'Install Python Requirements'
 
-    - script: html5validator --skip-non-svg --root ./
-      displayName: 'Validate Vectors'
+  - script: html5validator --skip-non-svg --root ./
+    displayName: 'Validate Vectors'
