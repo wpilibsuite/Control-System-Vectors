@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 154.5 252.5" style="enable-background:new 0 0 154.5 252.5;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#BABCBE;stroke-width:8.124;stroke-linecap:round;stroke-linejoin:round;}
+	.st1{fill:none;stroke:#E9262A;stroke-width:8.124;stroke-linecap:round;stroke-linejoin:round;}
+	.st2{fill:none;stroke:#231F20;stroke-width:8.124;stroke-linecap:round;stroke-linejoin:round;}
+	.st3{fill:#E9E8E8;}
+	.st4{fill:#030304;}
+	.st5{fill:#6D6D6D;}
+	.st6{fill:#EFE8CE;}
+	.st7{fill:#E6E7E8;}
+	.st8{font-family:'Verdana';}
+	.st9{font-size:18.3797px;}
+	.st10{fill:#F7DCA0;}
+	.st11{fill:#FBEEB8;}
+</style>
+<line class="st0" x1="67.8" y1="4.1" x2="67.8" y2="120.4"/>
+<line class="st1" x1="77.3" y1="4.1" x2="77.3" y2="108.8"/>
+<line class="st2" x1="86.3" y1="4.1" x2="86.3" y2="97.1"/>
+<circle class="st3" cx="58.7" cy="157.1" r="3.7"/>
+<circle class="st3" cx="78.1" cy="157.1" r="3.7"/>
+<circle class="st3" cx="97.5" cy="157.1" r="3.7"/>
+<path class="st4" d="M0,145.9v100.4c0,3.4,2.8,6.2,6.2,6.2h142.2c3.4,0,6.2-2.8,6.2-6.2V145.9c0-3.4-2.8-6.2-6.2-6.2H6.2
+	C2.8,139.7,0,142.5,0,145.9z M20,228c-8.4,1.1-15.5-6-14.4-14.4c0.7-5.7,5.4-10.4,11.1-11.1c8.4-1.1,15.5,6,14.4,14.4
+	C30.4,222.6,25.7,227.3,20,228z M138.9,228c-8.4,1.1-15.5-6-14.4-14.4c0.7-5.7,5.4-10.4,11.1-11.1c8.4-1.1,15.5,6,14.4,14.4
+	C149.2,222.6,144.6,227.3,138.9,228z"/>
+<rect x="41.8" y="76.1" class="st5" width="71.9" height="60"/>
+<rect x="56" y="136" class="st6" width="5.3" height="21"/>
+<rect x="75.4" y="136" class="st6" width="5.3" height="21"/>
+<rect x="94.9" y="136" class="st6" width="5.3" height="21"/>
+<text transform="matrix(1 0 0 1 22.6106 177.8229)" class="st7 st8 st9">SIG 5v GND</text>
+<rect x="58.5" y="187.2" class="st7" width="3.7" height="15.9"/>
+<rect x="72.9" y="187.2" class="st7" width="6.1" height="15.9"/>
+<rect x="93.7" y="187.2" class="st7" width="5.7" height="15.9"/>
+<rect x="56.7" y="214.3" class="st10" width="16.2" height="4.9"/>
+<rect x="82.4" y="214.3" class="st11" width="16.8" height="4.9"/>
+<rect x="56.7" y="228" class="st7" width="19.4" height="8.7"/>
+<rect x="95.5" y="224.9" class="st7" width="4" height="11.8"/>
+</svg>
