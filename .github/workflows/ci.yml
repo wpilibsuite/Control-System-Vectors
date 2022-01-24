@@ -1,0 +1,31 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup Python
+        uses: actions/setup-python@v2.3.1
+        with:
+         python-version: "3.8"
+         cache: "pip"
+         architecture: "x64"
+      - name: Update System Packages
+        run: sudo apt update
+      - name: Install Java 8
+        run: sudo apt-get install -y openjdk-8-jdk
+      - run: python -m pip install --upgrade pip setuptools wheel
+        name: Install and Upgrade Pip
+
+      - run: pip install -r requirements.txt
+        name: Install Python Requirements
+
+      - run: html5validator --skip-non-svg --ignore 'No documents specified' --root ./
+        name: Validate Vectors 
+    
