@@ -1,4 +1,4 @@
-[![Build Status](https://dev.azure.com/wpilib/Documentation/_apis/build/status/wpilibsuite.Control-System-Vectors?branchName=master)](https://dev.azure.com/wpilib/Documentation/_build/latest?definitionId=45&branchName=master)
+[![CI](https://github.com/wpilibsuite/Control-System-Vectors/actions/workflows/ci.yml/badge.svg)](https://github.com/wpilibsuite/Control-System-Vectors/actions/workflows/ci.yml)
 
 # Control System Vectors
 
